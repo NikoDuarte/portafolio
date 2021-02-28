@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="container">
+
+        <div class="row animate__animated animate__fadeIn">
+            <div class="col-md-12 text-center mt-5">
+                <h1 class="text-light fw-bolder">Mi experiencia</h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3 animate__animated animate__fadeIn">
+            <div class="col-md-12 col-lg-12 aling-self-center text-center text-white">
+                <p>
+                    Soy estudiante del programa de formacion: <strong>"Programacion de software"</strong> del SENA nivel tecnico, en el momento me encuentro cursando el penultimo semestre de formacion, donde he adquirido a lo largo del tiempo que llevo estudiando diferentes conocimientos en areas del <strong>desarrollo web</strong> en la parte del Front-end, implementando tecnologias nuevas como Bootstrap y Angular.
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-5 mb-5">
+            <div class="col-md-12 col-lg-12 text-center text-light">
+                <h2>Lenguajes, Frameworks y más</h2>
+            </div>
+            <div class="col-md-4 col-lg-4 mt-5 text-center text-light" *ngFor="let itemXp of xp">
+                <img [src]="itemXp.img" class="img-fluid img animate__animated animate__flipInX" [alt]="itemXp.title">
+                <p class="animate__animated animate__flipInY">{{itemXp.xp}}</p>
+            </div>
+        </div>
+
+    </div>
+</div>

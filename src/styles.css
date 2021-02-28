@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+.bg-img{
+    background-image: url('./assets/img/galaxy-bg.jpg');
+    position: relative;
+}
+
+.text-info{
+    color: #758EBF !important;
+}
+
+.bg-purple{
+    background-color: #1E2040 !important;
+}
+
+.btn-primary{
+    background-color: #1E2040 !important;
+}
+
+.vh-90{
+    height: 90vh !important;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.img-sm{
+    width: 50px;
+    height: 50px;
+}
+
+.btn-primary:hover{
+    background-color: #2a2d5c !important;
+}
+
+.icon-md{
+    font-size: 3rem;
+}
